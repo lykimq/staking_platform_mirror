@@ -2,6 +2,7 @@
 
 <video width="600" height="340" controls>
   <source src="./video/api_staking_platform.mp4" type="video/mp4">
+    <a href="https://www.youtube.com/watch?v=uRBElK9Czt8">Watch the video on YouTube instead</a>
 </video>
 
 ## Overview
