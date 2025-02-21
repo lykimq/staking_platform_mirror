@@ -1,5 +1,9 @@
 # DEX Trading Pairs API
 
+<video width="600" height="340" controls>
+  <source src="./video/api_staking_platform.mp4" type="video/mp4">
+</video>
+
 ## Overview
 
 This API fetches trading pairs and related information from a decentralized exchange (DEX). It interacts with **Factory, Pair, and ERC20** contracts using **Web3.js and ethers.js**.
