@@ -1,6 +1,6 @@
 # DEX Trading Pairs API
 
-[Watch the video tutorial](https://www.youtube.com/watch?v=uRBElK9Czt8)
+[Watch the video tutorial](./video/api_staking_platform.mp4)
 
 ## Overview
 
@@ -55,6 +55,27 @@ A mock ERC-20 token implementation for testing.
 **Features:**
 - Inherits from OpenZeppelin's ERC-20 implementation.
 - Mints an initial supply of 1,000,000 tokens to the deployer's address.
+
+## Implementation
+Contracts:
+- `contracts/mocks/MockFactory.sol`
+- `contracts/mocks/MockPair.sol`
+- `contracts/mocks/MockToken.sol`
+
+Controllers:
+- `controllers/dexController.js`
+
+Routes:
+- `routes/dexRoute.js`
+
+Scripts:
+- `scripts/deployTestContracts.js`
+
+Hardhat:
+- `hardhat.config.js`
+
+Config:
+- `config/config.env`
 
 ## Prerequisites
 
