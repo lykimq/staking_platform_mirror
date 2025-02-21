@@ -1,6 +1,6 @@
 # DEX Trading Pairs API
 
-[Watch the video tutorial](./video/api_staking_platform.mp4)
+[Watch the video tutorial](https://www.youtube.com/watch?v=uRBElK9Czt8)
 
 ## Overview
 
