@@ -1,0 +1,23 @@
+Compiled 7 Solidity files successfully (evm target: paris).
+Deploying test contracts...
+Deploying Mock Token A...
+Token A deployed to: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+Deploying Mock Token B...
+Token B deployed to: 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512
+Deploying Mock DEX Factory...
+Mock DEX Factory deployed to: 0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0
+Creating pair between Token A and Token B...
+Pair address: 0x75537828f2ce51be7289709686A69CbFDbB714F1
+Test setup complete. You can now interact with the contracts.
+Deployment Info: {
+  tokenA: '0x5FbDB2315678afecb367f032d93F642f64180aa3',
+  tokenB: '0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512',
+  factory: '0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0',
+  pair: '0x75537828f2ce51be7289709686A69CbFDbB714F1'
+}
+
+# Get all pairs
+curl http://localhost:4000/api/v1/dex/pairs
+
+# Get specific pair
+curl "http://localhost:4000/api/v1/dex/pair?token0Address=0x5FbDB2315678afecb367f032d93F642f64180aa3&token1Address=0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512"
