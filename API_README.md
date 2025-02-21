@@ -58,15 +58,15 @@ A mock ERC-20 token implementation for testing.
 
 ## Implementation
 Contracts:
-- `contracts/mocks/MockFactory.sol`
-- `contracts/mocks/MockPair.sol`
-- `contracts/mocks/MockToken.sol`
+- `contracts/MockFactory.sol`
+- `contracts/MockPair.sol`
+- `contracts/MockToken.sol`
 
 Controllers:
-- `controllers/dexController.js`
+- `server/controllers/dexController.js`
 
 Routes:
-- `routes/dexRoute.js`
+- `server/routes/dexRoute.js`
 
 Scripts:
 - `scripts/deployTestContracts.js`
